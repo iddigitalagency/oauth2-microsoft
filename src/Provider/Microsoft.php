@@ -20,21 +20,21 @@ class Microsoft extends AbstractProvider
      *
      * @var string
      */
-    protected $urlAuthorize = 'https://login.live.com/oauth20_authorize.srf';
+    protected $urlAuthorize = 'https://login.microsoftonline.com/common/oauth2/authorize';
 
     /**
      * Base url for access token.
      *
      * @var string
      */
-    protected $urlAccessToken = 'https://login.live.com/oauth20_token.srf';
+    protected $urlAccessToken = 'https://login.microsoftonline.com/common/oauth2/token';
 
     /**
      * Base url for resource owner.
      *
      * @var string
      */
-    protected $urlResourceOwnerDetails = 'https://apis.live.net/v5.0/me';
+    protected $urlResourceOwnerDetails = 'https://apis.microsoftonline.net/v5.0/me';
 
     /**
      * Get authorization url to begin OAuth flow
